@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useEffect } from "react";
@@ -206,8 +205,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
       {/* /categories */}
+
       {/* slider */}
+
       <div className="tf-slideshow slider-home-2 slider-effect-fade position-relative">
         <div
           dir="ltr"
@@ -849,7 +851,7 @@ export default function Home() {
                 <div className="col-md-6">
                   <div className="box-video-wrap">
                     <video
-                      src="images/slider/video-jewerly.mp4"
+                      src="images/slider/downloadd.mp4"
                       autoPlay={true}
                       muted={true}
                       playsInline={true}
@@ -1831,11 +1833,8 @@ export default function Home() {
                           Privacy Policy
                         </a>
                       </li>
-                      <li>
-                        <a href="#" className="footer-menu_item">
-                          Returns + Exchanges
-                        </a>
-                      </li>
+                     
+                    
                       <li>
                         <a href="#" className="footer-menu_item">
                           Shipping
@@ -1846,17 +1845,9 @@ export default function Home() {
                           Terms &amp; Conditions
                         </a>
                       </li>
-                      <li>
-                        <a href="#" className="footer-menu_item">
-                          FAQ’s
-                        </a>
-                      </li>
-                      &gt;
-                      <li>
-                        <a href="#" className="footer-menu_item">
-                          My Wishlist
-                        </a>
-                      </li>
+                     
+                   
+                     
                     </ul>
                   </div>
                 </div>
@@ -1870,22 +1861,22 @@ export default function Home() {
                     </div>
                     <ul className="footer-menu-list tf-collapse-content">
                       <li>
-                        <a href="#" className="footer-menu_item">
+                        <a href="out" className="footer-menu_item">
                           Our Company
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="footer-menu_item">
+                        <a href="https://maps.app.goo.gl/VrRgCF2T3eR3fGtt9" className="footer-menu_item">
                           Visit Our Store
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="footer-menu_item">
+                        <a href="contact.jsx" className="footer-menu_item">
                           Contact Us
                         </a>
                       </li>
                       <li>
-                        <a href="#" className="footer-menu_item">
+                        <a href="account.jsx" className="footer-menu_item">
                           Account
                         </a>
                       </li>
@@ -1908,7 +1899,7 @@ export default function Home() {
                       </li>
                       <li>
                         <a
-                          href="#"
+                          href="https://maps.app.goo.gl/VrRgCF2T3eR3fGtt9"
                           className="footer-menu_item text-decoration-underline"
                         >
                           See Our Store
@@ -1928,7 +1919,7 @@ export default function Home() {
                         <ul className="tf-social-icon d-flex gap-20 style-default">
                           <li>
                             <a
-                              href="#"
+                              href="https://www.facebook.com/share/1FHoVx1U3U/"
                               className="box-icon round social-facebook border-line-black"
                             >
                               <i className="icon fs-14 icon-fb" />
@@ -1936,7 +1927,7 @@ export default function Home() {
                           </li>
                           <li>
                             <a
-                              href="#"
+                              href="https://x.com/unique_exprhair"
                               className="box-icon round social-twiter border-line-black"
                             >
                               <i className="icon fs-14 icon-Icon-x" />
@@ -1944,7 +1935,7 @@ export default function Home() {
                           </li>
                           <li>
                             <a
-                              href="#"
+                              href="https://www.instagram.com/unique.expressions.hair?igsh=MTJzc2Y1NzJrNnh0cg=="
                               className="box-icon round social-instagram border-line-black"
                             >
                               <i className="icon fs-14 icon-instagram" />
@@ -1952,20 +1943,13 @@ export default function Home() {
                           </li>
                           <li>
                             <a
-                              href="#"
+                              href="https://www.tiktok.com/@uniqueexpressionshair?_t=ZG-8t26WfK9692&_r=1"
                               className="box-icon round social-tiktok border-line-black"
                             >
                               <i className="icon fs-14 icon-tiktok" />
                             </a>
                           </li>
-                          <li>
-                            <a
-                              href="#"
-                              className="box-icon round social-pinterest border-line-black"
-                            >
-                              <i className="icon fs-14 icon-pinterest-1" />
-                            </a>
-                          </li>
+                         
                         </ul>
                       </li>
                     </ul>
@@ -2172,7 +2156,7 @@ export default function Home() {
             <ul className="nav-ul-mb" id="wrapper-menu-navigation">
               <li className="nav-mb-item">
                 <a
-                  href="#"
+                  href="/page"
                   className="collapsed mb-menu-link current"
                   data-bs-toggle="collapse"
                   aria-expanded="true"
@@ -2371,7 +2355,7 @@ export default function Home() {
               </li>
 
               <div className="mb-notice">
-                <a href="#" className="text-need">
+                <a href="contact.jsx" className="text-need">
                   Contact Us
                 </a>
               </div>
@@ -2793,7 +2777,7 @@ export default function Home() {
                             </div>
                             <div className="tf-mini-cart-info">
                               {item?.name}
-                              <div className="meta-variant">Light gray</div>
+                              <div className="meta-variant"></div>
                               <div className="price fw-6">£{item?.price}</div>
                               <div className="tf-mini-cart-btns">
                                 <div className="wg-quantity small flex items-center">
