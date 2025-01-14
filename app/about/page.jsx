@@ -104,8 +104,8 @@ export default function Home() {
     <div className="banner-wrapper">
       <img
         className="lazyload"
-        src="images/about-banner-01.jpg"
-        data-src="images/about-banner-01.jpg"
+        src="https://comfortel.com.au/wp-content/uploads/Stella.Hair_SalonOpener1.jpg"
+        data-src="https://comfortel.com.au/wp-content/uploads/Stella.Hair_SalonOpener1.jpg"
         alt="image-collection"
       />
       <div className="box-content text-center">
