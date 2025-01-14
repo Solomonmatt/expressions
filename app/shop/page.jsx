@@ -245,7 +245,7 @@ const ShopPage = () => {
                           <span className="price font-poppins text-black text-lg">
                             £{product?.price}
                           </span>
-                          {/* <ul className="list-color-product">
+                          { <ul className="list-color-product">
                             <li className="list-color-item color-swatch active">
                               <span className="tooltip">Golden Yellow</span>
                               <span className="swatch-value bg_golden-yellow" />
@@ -266,7 +266,7 @@ const ShopPage = () => {
                                 alt="image-product"
                               />
                             </li>
-                          </ul> */}
+                          </ul> }
                         </div>
                       </div>
                     </div>
@@ -832,7 +832,7 @@ const ShopPage = () => {
                 <div id="dropdown-menu-four" className="collapse">
                   <ul className="sub-nav-menu" id="sub-menu-navigation">
                     <li>
-                      <a href="/about" className="sub-nav-link">
+                      <a href="about.jsx" className="sub-nav-link">
                         About us
                       </a>
                     </li>
