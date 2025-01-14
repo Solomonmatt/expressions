@@ -2156,7 +2156,7 @@ export default function Home() {
             <ul className="nav-ul-mb" id="wrapper-menu-navigation">
               <li className="nav-mb-item">
                 <a
-                  href="/page"
+                  href="/"
                   className="collapsed mb-menu-link current"
                   data-bs-toggle="collapse"
                   aria-expanded="true"
