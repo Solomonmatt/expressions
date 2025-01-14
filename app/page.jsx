@@ -1871,7 +1871,7 @@ export default function Home() {
                         </a>
                       </li>
                       <li>
-                        <a href="contact.jsx" className="footer-menu_item">
+                        <a href="/contact" className="footer-menu_item">
                           Contact Us
                         </a>
                       </li>
@@ -2355,7 +2355,7 @@ export default function Home() {
               </li>
 
               <div className="mb-notice">
-                <a href="contact.jsx" className="text-need">
+                <a href="/contact" className="text-need">
                   Contact Us
                 </a>
               </div>
