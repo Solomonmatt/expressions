@@ -104,8 +104,8 @@ export default function Home() {
     <div className="banner-wrapper">
       <img
         className="lazyload"
-        src="images/slider/about-banner-01.jpg"
-        data-src="images/slider/about-banner-01.jpg"
+        src="images/about-banner-01.jpg"
+        data-src="images/about-banner-01.jpg"
         alt="image-collection"
       />
       <div className="box-content text-center">
@@ -146,8 +146,8 @@ export default function Home() {
         <div className="tf-image-wrap">
           <img
             className="lazyload w-100"
-            data-src="images/collections/collection-69.jpg"
-            src="images/collections/collection-69.jpg"
+            data-src="https://media.istockphoto.com/id/851007946/photo/woman-getting-hair-shampooed-at-salon.jpg?s=612x612&w=0&k=20&c=1kRvk2iAy6rBdfrfeAz7fhqPz8pvY_dgKmq_fHmjmLU="
+            src="https://media.istockphoto.com/id/851007946/photo/woman-getting-hair-shampooed-at-salon.jpg?s=612x612&w=0&k=20&c=1kRvk2iAy6rBdfrfeAz7fhqPz8pvY_dgKmq_fHmjmLU="
             alt="collection-img"
           />
         </div>
@@ -190,8 +190,8 @@ export default function Home() {
             <div className="img-style">
               <img
                 className="lazyload"
-                src="images/collections/collection-71.jpg"
-                data-src="images/collections/collection-71.jpg"
+                src="https://queenhair.ng/wp-content/uploads/2022/01/hair-salon-in-nigeria-1.jpg"
+                data-src="https://queenhair.ng/wp-content/uploads/2022/01/hair-salon-in-nigeria-1.jpg"
                 alt="img-slider"
               />
             </div>
@@ -200,8 +200,8 @@ export default function Home() {
             <div className="img-style">
               <img
                 className="lazyload"
-                src="images/collections/collection-70.jpg"
-                data-src="images/collections/collection-70.jpg"
+                src="https://queenhair.ng/wp-content/uploads/2022/01/hair-salon-in-nigeria-1.jpg"
+                data-src="https://queenhair.ng/wp-content/uploads/2022/01/hair-salon-in-nigeria-1.jpg"
                 alt="img-slider"
               />
             </div>
