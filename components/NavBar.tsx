@@ -31,8 +31,8 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li className="categories-item">
-                  <Link href="#" className="text-uppercase">
-                    CUT &amp; SYLE
+                  <Link href="/about" className="text-uppercase">
+                    ABOUT US
                   </Link>
                 </li>
                 <li className="categories-item">
@@ -122,8 +122,8 @@ const NavBar = () => {
           </Link>
         </li>
         <li className="categories-item">
-          <Link href="/shop" className="text-uppercase">
-            CUT &amp; STYLE
+          <Link href="/about" className="text-uppercase">
+            ABOUT US
           </Link>
         </li>
         <li className="categories-item">
