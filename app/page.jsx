@@ -568,7 +568,7 @@ export default function Home() {
                           £{product?.price}
                         </span>
                         {
-                        /* 
+                        
                         <ul className="list-color-product">
                               <li className="list-color-item color-swatch active">
                                 <span className="tooltip">Golden Yellow</span>
@@ -591,7 +591,7 @@ export default function Home() {
                                 />
                               </li>
                             </ul> 
-                            */}
+                            }
                       </div>
                     </div>
                   );
@@ -1861,7 +1861,7 @@ export default function Home() {
                     </div>
                     <ul className="footer-menu-list tf-collapse-content">
                       <li>
-                        <a href="out" className="footer-menu_item">
+                        <a href="/about" className="footer-menu_item">
                           Our Company
                         </a>
                       </li>
