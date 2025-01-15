@@ -181,7 +181,7 @@ const ShopPage = () => {
             <div className="meta-filter-shop" />
             <div className="grid-layout wrapper-shop" data-grid="grid-4">
               {products &&
-                products.map((product) => {
+               products.map((product) => {
                   return (
                     <div className="swiper-slide" key={product._id}>
                       <div className="card-product style-brown">
@@ -245,7 +245,7 @@ const ShopPage = () => {
                           <span className="price font-poppins text-black text-lg">
                             £{product?.price}
                           </span>
-                          { <ul className="list-color-product">
+                          {/* <ul className="list-color-product">
                             <li className="list-color-item color-swatch active">
                               <span className="tooltip">Golden Yellow</span>
                               <span className="swatch-value bg_golden-yellow" />
@@ -266,7 +266,7 @@ const ShopPage = () => {
                                 alt="image-product"
                               />
                             </li>
-                          </ul> }
+                          </ul> */}
                         </div>
                       </div>
                     </div>
