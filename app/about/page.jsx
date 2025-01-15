@@ -155,7 +155,7 @@ export default function Home() {
           <div>
             <div className="heading">Established - 2010</div>
             <div className="text">
-              Unique Expressions Hair Studio was founded in 1995 by Maureen, a hair stylist with a{" "}
+              Unique Expressions Hair Studio was founded in 2010 by Maureen, a hair stylist with a{" "}
               <br className="d-xl-block d-none" />
               passion for timeless style. {" "}
               <br className="d-xl-block d-none" />
