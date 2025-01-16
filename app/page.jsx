@@ -2183,10 +2183,10 @@ export default function Home() {
                   aria-controls="dropdown-menu-two"
                 >
                   <span>Wigs</span>
-                  <span className="" />
+                  <span className="btn-open-sub" />
                 </a>
                 <div id="dropdown-menu-two" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                  <ul className="" id="">
                     <li>
                       <a
                         href="/shop"
