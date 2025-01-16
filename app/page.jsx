@@ -2154,7 +2154,7 @@ export default function Home() {
         />
         <div className="mb-canvas-content">
           <div className="mb-body">
-            <ul className="nav-ul-mb" id="wrapper-menu-navigation">
+            <ul className="nav-ul-mb" id="wrapper-menu-navigation"></ul>
               <li className="nav-mb-item">
                 <a
                   href="#"
@@ -2186,6 +2186,9 @@ export default function Home() {
                   <span>Wigs</span>
                   <span className="btn-open-sub" />
                 </a>
+              </li>
+
+              
 
               <div className="mb-notice">
                 <a href="/contact" className="text-need">
