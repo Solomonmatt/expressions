@@ -2166,7 +2166,7 @@ export default function Home() {
                 <a
                   href="/"
                   className="collapsed mb-menu-link current"
-                  data-bs-toggle="Dropdown"
+                  data-bs-toggle="collapse"
                   aria-expanded="true"
                   aria-controls="dropdown-menu-one"
                 >
@@ -2185,7 +2185,7 @@ export default function Home() {
                 <a
                   href=""
                   className="collapsed mb-menu-link current"
-                  data-bs-toggle=""
+                  data-bs-toggle="collapse"
                   aria-expanded="true"
                   aria-controls="dropdown-menu-two"
                 >
@@ -2198,7 +2198,7 @@ export default function Home() {
                       <a
                         href="/shop"
                         className="sub-nav-link collapsed"
-                        data-bs-toggle="Dropdown"
+                        data-bs-toggle="collapse"
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
@@ -2209,7 +2209,7 @@ export default function Home() {
                       <a
                         href="/shop"
                         className="sub-nav-link collapsed"
-                        data-bs-toggle="Dropdown"
+                        data-bs-toggle="collapse"
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
