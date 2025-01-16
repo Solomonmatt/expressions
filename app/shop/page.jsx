@@ -220,7 +220,7 @@ const ShopPage = () => {
                               className="box-icon wishlist btn-icon-action"
                             >
                               <span className="icon icon-heart" />
-                              <span className="tooltip">Add to Wishlist</span>
+                            
                               <span className="icon icon-delete" />
                             </a>
                             <a
@@ -230,7 +230,7 @@ const ShopPage = () => {
                               className="box-icon compare btn-icon-action"
                             >
                               <span className="icon icon-compare" />
-                              <span className="tooltip">Add to Compare</span>
+                         
                               <span className="icon icon-check" />
                             </a>
                           </div>
@@ -247,8 +247,7 @@ const ShopPage = () => {
                           </span>
                           { <ul className="list-color-product">
                             <li className="list-color-item color-swatch active">
-                              <span className="tooltip">Golden Yellow</span>
-                              <span className="swatch-value bg_golden-yellow" />
+                              
                               <img
                                 className="lazyload"
                                 data-src="images/products/shop1.png"
@@ -257,8 +256,7 @@ const ShopPage = () => {
                               />
                             </li>
                             <li className="list-color-item color-swatch">
-                              <span className="tooltip">Silver White</span>
-                              <span className="swatch-value bg_white" />
+                             
                               <img
                                 className="lazyload"
                                 data-src="images/products/shop1.png"
@@ -277,6 +275,9 @@ const ShopPage = () => {
         </div>
       </section>
       {/* /Section Product */}
+
+
+
       
       {/* Footer */}
       <footer
@@ -610,7 +611,8 @@ const ShopPage = () => {
         </div>
       </div>
       {/* /toolbar-bottom */}
-      
+
+
       {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
         <span
@@ -807,6 +809,7 @@ const ShopPage = () => {
         </div>
       </div>
       {/* /mobile menu */}
+
       {/* canvasSearch */}
       <div className="offcanvas offcanvas-end canvas-search" id="canvasSearch">
         <div className="canvas-wrapper">
@@ -870,6 +873,9 @@ const ShopPage = () => {
         </div>
       </div>
       {/* /canvasSearch */}
+
+
+
       {/* toolbarShopmb */}
       <div
         className="offcanvas offcanvas-start canvas-mb toolbar-shop-mobile"
@@ -910,6 +916,8 @@ const ShopPage = () => {
         </div>
       </div>
       {/* /toolbarShopmb */}
+
+
       {/* modal login */}
       <div
         className="modal modalCentered fade form-sign-in modal-part-content"
@@ -1124,7 +1132,8 @@ const ShopPage = () => {
         </div>
       </div>
       {/* /modal login */}
-      {/* shoppingCart */}
+
+
       <div
         className="modal fullRight fade modal-shopping-cart"
         id="shoppingCart"
@@ -1176,7 +1185,7 @@ const ShopPage = () => {
                             </div>
                             <div className="tf-mini-cart-info">
                               {item?.name}
-                              <div className="meta-variant">Light gray</div>
+                              <div className="meta-variant"></div>
                               <div className="price fw-6">£{item?.price}</div>
                               <div className="tf-mini-cart-btns">
                                 <div className="wg-quantity small flex items-center">
@@ -1527,6 +1536,7 @@ const ShopPage = () => {
               </div>
             </div>
             {/* /shoppingCart */}
+
             {/* modal ask_question */}
             <div
               className="modal modalCentered fade modalDemo tf-product-modal modal-part-content"
