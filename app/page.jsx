@@ -2145,27 +2145,47 @@ export default function Home() {
       </div>
       {/* /toolbar-bottom */}
       {/* mobile menu */}
+      {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
-        
+        <span
+          className="icon-close icon-close-popup"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        />
         <div className="mb-canvas-content">
           <div className="mb-body">
-            
+            <ul className="nav-ul-mb" id="wrapper-menu-navigation">
               <li className="nav-mb-item">
                 <a
-                  href="/page"
-                  
+                  href="#"
+                  className="collapsed mb-menu-link current"
+                  data-bs-toggle="collapse"
+                  aria-expanded="true"
+                  aria-controls="dropdown-menu-one"
                 >
                   <span>Home</span>
                   <span className="" />
                 </a>
-                
+                <div id="dropdown-menu-one" className="collapse">
+                  <ul className="sub-nav-menu">
+                    <li>
+                      <a href="/page" className="sub-nav-link" />
+                    </li>
+                  </ul>
+                </div>
               </li>
 
-
               <li className="nav-mb-item">
+                <a
+                  href="#dropdown-menu-two"
+                  className="collapsed mb-menu-link current"
+                  data-bs-toggle="collapse"
+                  aria-expanded="true"
+                  aria-controls="dropdown-menu-two"
+                >
                   <span>Wigs</span>
-                  <span className="" />
-                    </li>
+                  <span className="btn-open-sub" />
+                </a>
 
               <div className="mb-notice">
                 <a href="/contact" className="text-need">
