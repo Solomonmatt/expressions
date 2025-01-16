@@ -2189,17 +2189,7 @@ export default function Home() {
                 </a>
                 <div id="" className="">
                   <ul className="" id="">
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Frontal Wigs</span>
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         href="/shop"
@@ -2220,12 +2210,13 @@ export default function Home() {
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
-                        <span>HD Curly Wigs</span>
+                        <span>HD Curly & Frontal Wigs</span>
                       </a>
                     </li>
                   </ul>
                 </div>
               </li>
+             
               <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-three"
@@ -2261,28 +2252,8 @@ export default function Home() {
                         <span>Raw Hairs Bundle Sets</span>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded=""
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Tape in Extensions</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded=""
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Clip in Extensions</span>
-                      </a>
-                    </li>
+                   
+                    
                     <li>
                       <a
                         href="#"
@@ -2297,6 +2268,7 @@ export default function Home() {
                   </ul>
                 </div>
               </li>
+              
               <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-three"
@@ -2321,17 +2293,7 @@ export default function Home() {
                         <span>HD Frontals</span>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Swiss Frontals</span>
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         href="#"
