@@ -475,6 +475,8 @@ export default function Home() {
         </div>
       </section>
       {/* /Categories */}
+
+
       {/* Product */}
       <section className="flat-spacing-18 bg_brown-3">
         <div className="container">
@@ -483,7 +485,7 @@ export default function Home() {
             data-wow-delay="0s"
           >
             <span className="title fw-8 font-poppins text-white">
-              BEST SELLERS
+              SHOP
             </span>
             <div className="d-flex gap-16 align-items-center box-pagi-arr">
               <div className="nav-sw-arrow nav-next-slider type-white nav-next-product">
@@ -539,7 +541,7 @@ export default function Home() {
                             className="box-icon wishlist btn-icon-action"
                           >
                             <span className="icon icon-heart" />
-                            <span className="tooltip">Add to Wishlist</span>
+                            
                             <span className="icon icon-delete" />
                           </a>
                           <a
@@ -549,7 +551,7 @@ export default function Home() {
                             className="box-icon compare btn-icon-action"
                           >
                             <span className="icon icon-compare" />
-                            <span className="tooltip">Add to Compare</span>
+                           
                             <span className="icon icon-check" />
                           </a>
                         </div>
@@ -569,28 +571,8 @@ export default function Home() {
                         </span>
                         {
                         
-                        <ul className="list-color-product">
-                              <li className="list-color-item color-swatch active">
-                                <span className="tooltip">Golden Yellow</span>
-                                <span className="swatch-value bg_golden-yellow" />
-                                <img
-                                  className="lazyload"
-                                  data-src="images/products/shop1.png"
-                                  src="images/products/shop1.png"
-                                  alt="image-product"
-                                />
-                              </li>
-                              <li className="list-color-item color-swatch">
-                                <span className="tooltip">Silver White</span>
-                                <span className="swatch-value bg_white" />
-                                <img
-                                  className="lazyload"
-                                  data-src="images/products/shop1.png"
-                                  src="images/products/shop1.png"
-                                  alt="image-product"
-                                />
-                              </li>
-                            </ul> 
+                       
+                           
                             }
                       </div>
                     </div>
@@ -607,6 +589,9 @@ export default function Home() {
         </div>
       </section>
       {/* /Product */}
+
+
+
       {/* Collection */}
       <section className="flat-spacing-12 pb_0">
         <div className="container">
