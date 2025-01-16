@@ -2252,7 +2252,7 @@ export default function Home() {
                         href="/shop"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Virgin Hairs Bundle Sets</span>
@@ -2263,7 +2263,7 @@ export default function Home() {
                         href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Raw Hairs Bundle Sets</span>
@@ -2274,7 +2274,7 @@ export default function Home() {
                         href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Tape in Extensions</span>
@@ -2285,7 +2285,7 @@ export default function Home() {
                         href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Clip in Extensions</span>
@@ -2296,7 +2296,7 @@ export default function Home() {
                         href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Frontal with Bundle Combo</span>
