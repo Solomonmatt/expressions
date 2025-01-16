@@ -181,7 +181,7 @@ const ShopPage = () => {
             <div className="meta-filter-shop" />
             <div className="grid-layout wrapper-shop" data-grid="grid-4">
               {products &&
-               products.map((product) => {
+                products.map((product) => {
                   return (
                     <div className="swiper-slide" key={product._id}>
                       <div className="card-product style-brown">
@@ -245,7 +245,7 @@ const ShopPage = () => {
                           <span className="price font-poppins text-black text-lg">
                             £{product?.price}
                           </span>
-                          {/* <ul className="list-color-product">
+                          { <ul className="list-color-product">
                             <li className="list-color-item color-swatch active">
                               <span className="tooltip">Golden Yellow</span>
                               <span className="swatch-value bg_golden-yellow" />
@@ -266,7 +266,7 @@ const ShopPage = () => {
                                 alt="image-product"
                               />
                             </li>
-                          </ul> */}
+                          </ul> }
                         </div>
                       </div>
                     </div>
@@ -277,6 +277,7 @@ const ShopPage = () => {
         </div>
       </section>
       {/* /Section Product */}
+      
       {/* Footer */}
       <footer
         id="footer"
@@ -609,6 +610,7 @@ const ShopPage = () => {
         </div>
       </div>
       {/* /toolbar-bottom */}
+      
       {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
         <span
@@ -620,20 +622,20 @@ const ShopPage = () => {
           <div className="mb-body">
             <ul className="nav-ul-mb" id="wrapper-menu-navigation">
               <li className="nav-mb-item">
-                <Link
-                  href="/page"
+                <a
+                  href="/"
                   className="collapsed mb-menu-link current"
                   data-bs-toggle="collapse"
                   aria-expanded="true"
                   aria-controls="dropdown-menu-one"
                 >
-                  <span>Home</span>
+                 
                   <span className="" />
-                </Link>
+                </a>
                 <div id="dropdown-menu-one" className="collapse">
                   <ul className="sub-nav-menu">
                     <li>
-                      <a href="" className="sub-nav-link" />
+                      <a href="/page" className="sub-nav-link" />
                     </li>
                   </ul>
                 </div>
@@ -649,55 +651,36 @@ const ShopPage = () => {
                   <span>Wigs</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-two" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                <div id="" className="">
+                  <ul className="" id="">
+                   
                     <li>
                       <a
-                        href="shop.html"
+                        href="/shop"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
-                        <span>HD Frontal Wigs</span>
+                        <span>HD  Colored & Closure Wigs</span>
                       </a>
                     </li>
+                   
                     <li>
                       <a
-                        href="shop.html"
+                        href="/shop"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
-                        <span>HD Closure Wigs</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="shop.html"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Colored Wigs</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="shop.html"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Curly Wigs</span>
+                        <span>HD Curly & Frontal Wigs</span>
                       </a>
                     </li>
                   </ul>
                 </div>
               </li>
+             
               <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-three"
@@ -709,14 +692,14 @@ const ShopPage = () => {
                   <span>Bundles</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-three" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                <div id="" className="">
+                  <ul className="" id="">
                     <li>
                       <a
-                        href="#"
+                        href="/shop"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Virgin Hairs Bundle Sets</span>
@@ -727,40 +710,20 @@ const ShopPage = () => {
                         href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Raw Hairs Bundle Sets</span>
                       </a>
                     </li>
+                   
+                    
                     <li>
                       <a
                         href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Tape in Extensions</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Clip in Extensions</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Frontal with Bundle Combo</span>
@@ -769,6 +732,7 @@ const ShopPage = () => {
                   </ul>
                 </div>
               </li>
+              
               <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-three"
@@ -780,132 +744,25 @@ const ShopPage = () => {
                   <span>Frontal &amp; Closures</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-three" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                <div id="" className="">
+                  <ul className="" id="">
                     <li>
                       <a
-                        href="shop.html"
+                        href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
                         aria-expanded="true"
                         aria-controls="sub-product-one"
                       >
-                        <span>HD Frontals</span>
+                        <span>HD Frontals & HD Closures </span>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        href="shop.html"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Swiss Frontals</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="shop.html"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>HD Closures</span>
-                      </a>
-                    </li>
-                  </ul>
+                      </ul>
                 </div>
               </li>
-              <li className="nav-mb-item">
-                <a
-                  href="#dropdown-menu-four"
-                  className="collapsed mb-menu-link current"
-                  data-bs-toggle="collapse"
-                  aria-expanded="true"
-                  aria-controls="dropdown-menu-four"
-                >
-                  <span>Pages</span>
-                  <span className="btn-open-sub" />
-                </a>
-                <div id="dropdown-menu-four" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
-                    <li>
-                      <a href="about.jsx" className="sub-nav-link">
-                        About us
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sub-nav-link">
-                        Contact 1
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sub-nav-link line-clamp">
-                        Payment Confirmation
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="sub-nav-link line-clamp">
-                        Payment Failure
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#sub-account"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-account"
-                      >
-                        <span>My Account</span>
-                        <span className="btn-open-sub" />
-                      </a>
-                      <div id="sub-account" className="collapse">
-                        <ul className="sub-nav-menu sub-menu-level-2">
-                          <li>
-                            <a href="#" className="sub-nav-link">
-                              My account
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#" className="sub-nav-link">
-                              My order
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#" className="sub-nav-link">
-                              My order details
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#" className="sub-nav-link">
-                              My address
-                            </a>
-                          </li>
-                          <li>
-                            <a href="#" className="sub-nav-link">
-                              My account details
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                    <li>
-                      <a href="#" className="sub-nav-link line-clamp">
-                        Invoice
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <div className="mb-notice">
-                <a href="https://maps.app.goo.gl/qqg9HWr3jSppScEG6" className="text-need">
-                  Contact Us
-                </a>
-              </div>
-              <ul className="mb-info">
+
+              <div className="mb-notice"> </div>
+                                        <ul className="mb-info">
                 <li>
                   Address: 326 Barking Road, Plaistow,
                   <br /> London, E13 8HL (Inside Mr. T barber shop)
@@ -921,10 +778,6 @@ const ShopPage = () => {
           </div>
         </div>
         <div className="mb-bottom">
-          <a href="#" className="site-nav-icon">
-            <i className="icon icon-account" />
-            Login
-          </a>
           <div className="bottom-bar-language">
             <div className="tf-currencies">
               <select className="image-select center style-default type-currencies">
