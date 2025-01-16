@@ -2148,6 +2148,7 @@ export default function Home() {
 
 
       
+    
       {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
         <span
@@ -2159,8 +2160,8 @@ export default function Home() {
           <div className="mb-body">
             <ul className="nav-ul-mb" id="wrapper-menu-navigation">
               <li className="nav-mb-item">
-                <a
-                  href="#"
+                <Link
+                  href="/page"
                   className="collapsed mb-menu-link current"
                   data-bs-toggle="collapse"
                   aria-expanded="true"
@@ -2168,8 +2169,8 @@ export default function Home() {
                 >
                   <span>Home</span>
                   <span className="" />
-                </a>
-                <div id="dropdown-menu-one" className="">
+                </Link>
+                <div id="dropdown-menu-one" className="collapse">
                   <ul className="sub-nav-menu">
                     <li>
                       <a href="/page" className="sub-nav-link" />
@@ -2186,15 +2187,15 @@ export default function Home() {
                   aria-controls="dropdown-menu-two"
                 >
                   <span>Wigs</span>
-                  <span className="" />
+                  <span className="btn-open-sub" />
                 </a>
                 <div id="dropdown-menu-two" className="collapse">
                   <ul className="sub-nav-menu" id="sub-menu-navigation">
                     <li>
                       <a
-                        href="/shop"
+                        href="shop.html"
                         className="sub-nav-link collapsed"
-                        data-bs-toggle=""
+                        data-bs-toggle="collapse"
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
@@ -2203,9 +2204,9 @@ export default function Home() {
                     </li>
                     <li>
                       <a
-                        href="/shop"
+                        href="shop.html"
                         className="sub-nav-link collapsed"
-                        data-bs-toggle=""
+                        data-bs-toggle="collapse"
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
@@ -2214,10 +2215,10 @@ export default function Home() {
                     </li>
                     <li>
                       <a
-                        href="/shop"
+                        href="shop.html"
                         className="sub-nav-link collapsed"
-                        data-bs-toggle=""
-                        aria-expanded=""
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
                         <span>HD Colored Wigs</span>
@@ -2225,11 +2226,11 @@ export default function Home() {
                     </li>
                     <li>
                       <a
-                        href="/shop"
+                        href="shop.html"
                         className="sub-nav-link collapsed"
-                        data-bs-toggle=""
-                        aria-expanded=""
-                        aria-controls=""
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-shop-one"
                       >
                         <span>HD Curly Wigs</span>
                       </a>
@@ -2252,7 +2253,7 @@ export default function Home() {
                   <ul className="sub-nav-menu" id="sub-menu-navigation">
                     <li>
                       <a
-                        href="/shop"
+                        href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
                         aria-expanded="true"
@@ -2323,7 +2324,7 @@ export default function Home() {
                   <ul className="sub-nav-menu" id="sub-menu-navigation">
                     <li>
                       <a
-                        href="#"
+                        href="shop.html"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
                         aria-expanded="true"
@@ -2334,7 +2335,7 @@ export default function Home() {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="shop.html"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
                         aria-expanded="true"
@@ -2345,7 +2346,7 @@ export default function Home() {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="shop.html"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
                         aria-expanded="true"
@@ -2357,8 +2358,108 @@ export default function Home() {
                   </ul>
                 </div>
               </li>
-
-              
+              <li className="nav-mb-item">
+                <a
+                  href="#dropdown-menu-four"
+                  className="collapsed mb-menu-link current"
+                  data-bs-toggle="collapse"
+                  aria-expanded="true"
+                  aria-controls="dropdown-menu-four"
+                >
+                  <span>Pages</span>
+                  <span className="btn-open-sub" />
+                </a>
+                <div id="dropdown-menu-four" className="collapse">
+                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                    <li>
+                      <a href="about.jsx" className="sub-nav-link">
+                        About us
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" className="sub-nav-link">
+                        Contact 1
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" className="sub-nav-link line-clamp">
+                        Payment Confirmation
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" className="sub-nav-link line-clamp">
+                        Payment Failure
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#sub-account"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-account"
+                      >
+                        <span>My Account</span>
+                        <span className="btn-open-sub" />
+                      </a>
+                      <div id="sub-account" className="collapse">
+                        <ul className="sub-nav-menu sub-menu-level-2">
+                          <li>
+                            <a href="#" className="sub-nav-link">
+                              My account
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" className="sub-nav-link">
+                              My order
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" className="sub-nav-link">
+                              My order details
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" className="sub-nav-link">
+                              My address
+                            </a>
+                          </li>
+                          <li>
+                            <a href="#" className="sub-nav-link">
+                              My account details
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#" className="sub-nav-link line-clamp">
+                        Invoice
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <div className="mb-notice">
+                <a href="https://maps.app.goo.gl/qqg9HWr3jSppScEG6" className="text-need">
+                  Contact Us
+                </a>
+              </div>
+              <ul className="mb-info">
+                <li>
+                  Address: 326 Barking Road, Plaistow,
+                  <br /> London, E13 8HL (Inside Mr. T barber shop)
+                </li>
+                <li>
+                  Email: <b>maureen@uniquehair-studio.com</b>
+                </li>
+                <li>
+                  Phone: <b>(0) 7490442544</b>
+                </li>
+              </ul>
+            </ul>
+          </div>
+        </div>
 
               <div className="mb-notice">
                 <a href="/contact" className="text-need">
