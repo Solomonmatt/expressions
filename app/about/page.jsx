@@ -155,7 +155,7 @@ export default function Home() {
           <div>
             <div className="heading">Established - 2010</div>
             <div className="text">
-              Unique Expressions Hair Studio was founded in 2010 by Maureen, a hair stylist with a{" "}
+              Unique Expressions Hair Studio was founded in 1995 by Maureen, a hair stylist with a{" "}
               <br className="d-xl-block d-none" />
               passion for timeless style. {" "}
               <br className="d-xl-block d-none" />
@@ -620,6 +620,9 @@ export default function Home() {
         </div>
       </div>
       {/* /toolbar-bottom */}
+
+
+      
       {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
         <span
@@ -632,13 +635,13 @@ export default function Home() {
             <ul className="nav-ul-mb" id="wrapper-menu-navigation">
               <li className="nav-mb-item">
                 <a
-                  href="#"
+                  href="/"
                   className="collapsed mb-menu-link current"
                   data-bs-toggle="collapse"
                   aria-expanded="true"
                   aria-controls="dropdown-menu-one"
                 >
-                  <span>Home</span>
+                 
                   <span className="" />
                 </a>
                 <div id="dropdown-menu-one" className="collapse">
@@ -660,8 +663,9 @@ export default function Home() {
                   <span>Wigs</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-two" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                <div id="" className="">
+                  <ul className="" id="">
+                   
                     <li>
                       <a
                         href="/shop"
@@ -670,9 +674,10 @@ export default function Home() {
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
-                        <span>HD Frontal Wigs</span>
+                        <span>HD  Colored & Closure Wigs</span>
                       </a>
                     </li>
+                   
                     <li>
                       <a
                         href="/shop"
@@ -681,34 +686,13 @@ export default function Home() {
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
-                        <span>HD Closure Wigs</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Colored Wigs</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Curly Wigs</span>
+                        <span>HD Curly & Frontal Wigs</span>
                       </a>
                     </li>
                   </ul>
                 </div>
               </li>
+             
               <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-three"
@@ -720,14 +704,14 @@ export default function Home() {
                   <span>Bundles</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-three" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                <div id="" className="">
+                  <ul className="" id="">
                     <li>
                       <a
                         href="/shop"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Virgin Hairs Bundle Sets</span>
@@ -738,40 +722,20 @@ export default function Home() {
                         href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Raw Hairs Bundle Sets</span>
                       </a>
                     </li>
+                   
+                    
                     <li>
                       <a
                         href="#"
                         className="sub-nav-link collapsed"
                         data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Tape in Extensions</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Clip in Extensions</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
+                        aria-expanded=""
                         aria-controls="sub-product-one"
                       >
                         <span>Frontal with Bundle Combo</span>
@@ -780,6 +744,7 @@ export default function Home() {
                   </ul>
                 </div>
               </li>
+              
               <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-three"
@@ -791,8 +756,8 @@ export default function Home() {
                   <span>Frontal &amp; Closures</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-three" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                <div id="" className="">
+                  <ul className="" id="">
                     <li>
                       <a
                         href="#"
@@ -801,41 +766,15 @@ export default function Home() {
                         aria-expanded="true"
                         aria-controls="sub-product-one"
                       >
-                        <span>HD Frontals</span>
+                        <span>HD Frontals & HD Closures </span>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Swiss Frontals</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>HD Closures</span>
-                      </a>
-                    </li>
-                  </ul>
+                      </ul>
                 </div>
               </li>
 
-              <div className="mb-notice">
-                <a href="#" className="text-need">
-                  Contact Us
-                </a>
-              </div>
-              <ul className="mb-info">
+              <div className="mb-notice"> </div>
+                                        <ul className="mb-info">
                 <li>
                   Address: 326 Barking Road, Plaistow,
                   <br /> London, E13 8HL (Inside Mr. T barber shop)
