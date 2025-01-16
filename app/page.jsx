@@ -505,8 +505,8 @@ export default function Home() {
           <div className="hover-sw-nav hover-sw-2">
             <div
               dir="ltr"
-              div className="grid-layout wrapper-shop" data-grid="grid-4">
-            
+              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 wrap"
+            >
               {products &&
                 products?.map((product) => {
                   return (
