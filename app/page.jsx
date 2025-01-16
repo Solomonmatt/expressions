@@ -2145,6 +2145,8 @@ export default function Home() {
       </div>
       {/* /toolbar-bottom */}
 
+
+      
       {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
         <span
@@ -2185,7 +2187,7 @@ export default function Home() {
                   <span>Wigs</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-two" className="collapse">
+                <div id="" className="">
                   <ul className="" id="">
                     <li>
                       <a
