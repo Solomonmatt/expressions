@@ -2183,9 +2183,9 @@ export default function Home() {
               </li>
               <li className="nav-mb-item">
                 <a
-                  href="#dropdown-menu-two"
+                  href=""
                   className="collapsed mb-menu-link current"
-                  data-bs-toggle="Dropdown"
+                  data-bs-toggle=""
                   aria-expanded="true"
                   aria-controls="dropdown-menu-two"
                 >
