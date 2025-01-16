@@ -2145,6 +2145,9 @@ export default function Home() {
       </div>
       {/* /toolbar-bottom */}
       {/* mobile menu */}
+
+
+      
       {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
         <span
@@ -2154,7 +2157,7 @@ export default function Home() {
         />
         <div className="mb-canvas-content">
           <div className="mb-body">
-            <ul className="nav-ul-mb" id="wrapper-menu-navigation"></ul>
+            <ul className="nav-ul-mb" id="wrapper-menu-navigation">
               <li className="nav-mb-item">
                 <a
                   href="#"
@@ -2166,7 +2169,7 @@ export default function Home() {
                   <span>Home</span>
                   <span className="" />
                 </a>
-                <div id="dropdown-menu-one" className="collapse">
+                <div id="dropdown-menu-one" className="">
                   <ul className="sub-nav-menu">
                     <li>
                       <a href="/page" className="sub-nav-link" />
@@ -2174,7 +2177,6 @@ export default function Home() {
                   </ul>
                 </div>
               </li>
-
               <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-two"
@@ -2184,8 +2186,176 @@ export default function Home() {
                   aria-controls="dropdown-menu-two"
                 >
                   <span>Wigs</span>
+                  <span className="" />
+                </a>
+                <div id="dropdown-menu-two" className="collapse">
+                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                    <li>
+                      <a
+                        href="/shop"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle=""
+                        aria-expanded="true"
+                        aria-controls="sub-shop-one"
+                      >
+                        <span>HD Frontal Wigs</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/shop"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle=""
+                        aria-expanded="true"
+                        aria-controls="sub-shop-one"
+                      >
+                        <span>HD Closure Wigs</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/shop"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle=""
+                        aria-expanded=""
+                        aria-controls="sub-shop-one"
+                      >
+                        <span>HD Colored Wigs</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/shop"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle=""
+                        aria-expanded=""
+                        aria-controls=""
+                      >
+                        <span>HD Curly Wigs</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li className="nav-mb-item">
+                <a
+                  href="#dropdown-menu-three"
+                  className="collapsed mb-menu-link current"
+                  data-bs-toggle="collapse"
+                  aria-expanded="true"
+                  aria-controls="dropdown-menu-three"
+                >
+                  <span>Bundles</span>
                   <span className="btn-open-sub" />
                 </a>
+                <div id="dropdown-menu-three" className="collapse">
+                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                    <li>
+                      <a
+                        href="/shop"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-product-one"
+                      >
+                        <span>Virgin Hairs Bundle Sets</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-product-one"
+                      >
+                        <span>Raw Hairs Bundle Sets</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-product-one"
+                      >
+                        <span>Tape in Extensions</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-product-one"
+                      >
+                        <span>Clip in Extensions</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-product-one"
+                      >
+                        <span>Frontal with Bundle Combo</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li className="nav-mb-item">
+                <a
+                  href="#dropdown-menu-three"
+                  className="collapsed mb-menu-link current"
+                  data-bs-toggle="collapse"
+                  aria-expanded="true"
+                  aria-controls="dropdown-menu-three"
+                >
+                  <span>Frontal &amp; Closures</span>
+                  <span className="btn-open-sub" />
+                </a>
+                <div id="dropdown-menu-three" className="collapse">
+                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                    <li>
+                      <a
+                        href="#"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-product-one"
+                      >
+                        <span>HD Frontals</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-product-one"
+                      >
+                        <span>Swiss Frontals</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#"
+                        className="sub-nav-link collapsed"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="sub-product-one"
+                      >
+                        <span>HD Closures</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </li>
 
               
