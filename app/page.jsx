@@ -2150,6 +2150,8 @@ export default function Home() {
         </div>
       </div>
       {/* /toolbar-bottom */}
+
+      
       {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
         <span
@@ -2164,7 +2166,7 @@ export default function Home() {
                 <a
                   href="/"
                   className="collapsed mb-menu-link current"
-                  data-bs-toggle="collapse"
+                  data-bs-toggle="Dropdown"
                   aria-expanded="true"
                   aria-controls="dropdown-menu-one"
                 >
@@ -2183,7 +2185,7 @@ export default function Home() {
                 <a
                   href="#dropdown-menu-two"
                   className="collapsed mb-menu-link current"
-                  data-bs-toggle="collapse"
+                  data-bs-toggle="Dropdown"
                   aria-expanded="true"
                   aria-controls="dropdown-menu-two"
                 >
@@ -2196,7 +2198,7 @@ export default function Home() {
                       <a
                         href="/shop"
                         className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
+                        data-bs-toggle="Dropdown"
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
@@ -2207,7 +2209,7 @@ export default function Home() {
                       <a
                         href="/shop"
                         className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
+                        data-bs-toggle="Dropdown"
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
@@ -2412,13 +2414,6 @@ export default function Home() {
       {/* /mobile menu */}
 
 
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script>
-  $('.dropdown-toggle').dropdown();
-  $(document).on('click', '.dropdown-menu', function (e) {
-    e.stopPropagation(); // Prevents menu from closing when clicking inside it
   
 
       {/* canvasSearch */}
