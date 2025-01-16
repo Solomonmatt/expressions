@@ -2293,13 +2293,11 @@ export default function Home() {
                         <span>HD Frontals & HD Closures </span>
                       </a>
                     </li>
-                   
-                  
-                  </ul>
+                      </ul>
                 </div>
               </li>
 
-              <div className="mb-notice">
+              <div className="mb-notice"> </div>
                                         <ul className="mb-info">
                 <li>
                   Address: 326 Barking Road, Plaistow,
