@@ -2165,7 +2165,7 @@ export default function Home() {
                   aria-expanded="true"
                   aria-controls="dropdown-menu-one"
                 >
-                  <span>Home</span>
+                 
                   <span className="" />
                 </a>
                 <div id="dropdown-menu-one" className="collapse">
@@ -2290,31 +2290,17 @@ export default function Home() {
                         aria-expanded="true"
                         aria-controls="sub-product-one"
                       >
-                        <span>HD Frontals</span>
+                        <span>HD Frontals & HD Closures </span>
                       </a>
                     </li>
                    
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>HD Closures</span>
-                      </a>
-                    </li>
+                  
                   </ul>
                 </div>
               </li>
 
               <div className="mb-notice">
-                <a href="/contact" className="text-need">
-                  Contact Us
-                </a>
-              </div>
-              <ul className="mb-info">
+                                        <ul className="mb-info">
                 <li>
                   Address: 326 Barking Road, Plaistow,
                   <br /> London, E13 8HL (Inside Mr. T barber shop)
