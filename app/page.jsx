@@ -475,8 +475,6 @@ export default function Home() {
         </div>
       </section>
       {/* /Categories */}
-
-      
       {/* Product */}
       <section className="flat-spacing-18 bg_brown-3">
         <div className="container">
@@ -570,7 +568,7 @@ export default function Home() {
                           £{product?.price}
                         </span>
                         {
-                        /* 
+                        
                         <ul className="list-color-product">
                               <li className="list-color-item color-swatch active">
                                 <span className="tooltip">Golden Yellow</span>
@@ -593,7 +591,7 @@ export default function Home() {
                                 />
                               </li>
                             </ul> 
-                            */}
+                            }
                       </div>
                     </div>
                   );
@@ -609,10 +607,6 @@ export default function Home() {
         </div>
       </section>
       {/* /Product */}
-
-
-      
-      
       {/* Collection */}
       <section className="flat-spacing-12 pb_0">
         <div className="container">
@@ -2150,218 +2144,28 @@ export default function Home() {
         </div>
       </div>
       {/* /toolbar-bottom */}
-
-      
       {/* mobile menu */}
       <div className="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
-        <span
-          className="icon-close icon-close-popup"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        />
+        
         <div className="mb-canvas-content">
           <div className="mb-body">
-            <ul className="nav-ul-mb" id="wrapper-menu-navigation">
+            
               <li className="nav-mb-item">
                 <a
-                  href="/"
-                  className="collapsed mb-menu-link current"
-                  data-bs-toggle="collapse"
-                  aria-expanded="true"
-                  aria-controls="dropdown-menu-one"
+                  href="/page"
+                  
                 >
                   <span>Home</span>
                   <span className="" />
                 </a>
                 
-                <div id="">
-                  <ul className="sub-nav-menu">
-                    <li>
-                      <a href="/page" className="sub-nav-link" />
-                    </li>
-                  </ul>
-                </div>
               </li>
+
+
               <li className="nav-mb-item">
-                <a
-                  href=""
-                  className="collapsed mb-menu-link current"
-                  data-bs-toggle="collapse"
-                  aria-expanded="true"
-                  aria-controls="dropdown-menu-two"
-                >
                   <span>Wigs</span>
-                  <span className="btn-open-sub" />
-                </a>
-                <div id="" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Frontal Wigs</span>
-                      </a>
+                  <span className="" />
                     </li>
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Closure Wigs</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Colored Wigs</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Curly Wigs</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li className="nav-mb-item">
-                <a
-                  href="#dropdown-menu-three"
-                  className="collapsed mb-menu-link current"
-                  data-bs-toggle="collapse"
-                  aria-expanded="true"
-                  aria-controls="dropdown-menu-three"
-                >
-                  <span>Bundles</span>
-                  <span className="btn-open-sub" />
-                </a>
-                <div id="dropdown-menu-three" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Virgin Hairs Bundle Sets</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Raw Hairs Bundle Sets</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Tape in Extensions</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Clip in Extensions</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Frontal with Bundle Combo</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li className="nav-mb-item">
-                <a
-                  href="#dropdown-menu-three"
-                  className="collapsed mb-menu-link current"
-                  data-bs-toggle="collapse"
-                  aria-expanded="true"
-                  aria-controls="dropdown-menu-three"
-                >
-                  <span>Frontal &amp; Closures</span>
-                  <span className="btn-open-sub" />
-                </a>
-                <div id="dropdown-menu-three" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>HD Frontals</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>Swiss Frontals</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-product-one"
-                      >
-                        <span>HD Closures</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
 
               <div className="mb-notice">
                 <a href="/contact" className="text-need">
@@ -2380,7 +2184,7 @@ export default function Home() {
                   Phone: <b>(0) 7490442544</b>
                 </li>
               </ul>
-            </ul>
+          
           </div>
         </div>
         <div className="mb-bottom">
@@ -2415,7 +2219,6 @@ export default function Home() {
       {/* /mobile menu */}
 
 
-  
 
       {/* canvasSearch */}
       <div className="offcanvas offcanvas-end canvas-search" id="canvasSearch">
