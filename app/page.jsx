@@ -2173,7 +2173,8 @@ export default function Home() {
                   <span>Home</span>
                   <span className="" />
                 </a>
-                <div id="dropdown-menu-one" className="collapse">
+                
+                <div id="">
                   <ul className="sub-nav-menu">
                     <li>
                       <a href="/page" className="sub-nav-link" />
@@ -2192,7 +2193,7 @@ export default function Home() {
                   <span>Wigs</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-two" className="collapse">
+                <div id="" className="collapse">
                   <ul className="sub-nav-menu" id="sub-menu-navigation">
                     <li>
                       <a
