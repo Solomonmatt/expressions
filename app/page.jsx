@@ -2208,20 +2208,10 @@ export default function Home() {
                         aria-expanded="true"
                         aria-controls="sub-shop-one"
                       >
-                        <span>HD Closure Wigs</span>
+                        <span>HD  Colored & Closure Wigs</span>
                       </a>
                     </li>
-                    <li>
-                      <a
-                        href="/shop"
-                        className="sub-nav-link collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-shop-one"
-                      >
-                        <span>HD Colored Wigs</span>
-                      </a>
-                    </li>
+                   
                     <li>
                       <a
                         href="/shop"
@@ -2247,8 +2237,8 @@ export default function Home() {
                   <span>Bundles</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-three" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                <div id="" className="">
+                  <ul className="" id="">
                     <li>
                       <a
                         href="/shop"
@@ -2318,8 +2308,8 @@ export default function Home() {
                   <span>Frontal &amp; Closures</span>
                   <span className="btn-open-sub" />
                 </a>
-                <div id="dropdown-menu-three" className="collapse">
-                  <ul className="sub-nav-menu" id="sub-menu-navigation">
+                <div id="" className="">
+                  <ul className="" id="">
                     <li>
                       <a
                         href="#"
