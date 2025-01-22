@@ -19,7 +19,7 @@ export async function checkoutCart(transaction: any) {
           currency: 'gbp',
           unit_amount: amount,
           product_data: {
-            name: "Unique Hairs - Purchase",
+            name: "Unique Expressions Hair Studio",
           },
         },
         quantity: 1
