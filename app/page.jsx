@@ -1851,7 +1851,7 @@ export default function Home() {
                         </a>
                       </li>
                       <li>
-                        <a href="https://maps.app.goo.gl/VrRgCF2T3eR3fGtt9" className="footer-menu_item">
+                        <a href="https://maps.app.goo.gl/9MKemVSYtqSQM5DL8" className="footer-menu_item">
                           Visit Our Store
                         </a>
                       </li>
@@ -1884,7 +1884,7 @@ export default function Home() {
                       </li>
                       <li>
                         <a
-                          href="https://maps.app.goo.gl/VrRgCF2T3eR3fGtt9"
+                          href="https://maps.app.goo.gl/9MKemVSYtqSQM5DL8"
                           className="footer-menu_item text-decoration-underline"
                         >
                           See Our Store
@@ -2028,7 +2028,7 @@ export default function Home() {
                 <div className="col-12">
                   <div className="footer-bottom-wrap d-flex gap-20 flex-wrap justify-content-between align-items-center">
                     <div className="footer-menu_item">
-                      © 2025 Unique Expressions Hair Studio. All Rights Reserved
+                      © 2026 Unique Expressions Hair Studio. All Rights Reserved
                     </div>
                     <div className="tf-payment">
                       <img src="images/demo/visa.png" alt="" />
@@ -2285,8 +2285,8 @@ export default function Home() {
               <div className="mb-notice"> </div>
                                         <ul className="mb-info">
                 <li>
-                  Address: 326 Barking Road, Plaistow,
-                  <br /> London, E13 8HL (Inside Mr. T barber shop)
+                  Address: 245 Barking Road, Plaistow,
+                  <br /> London, E13 8EQ 
                 </li>
                 <li>
                   Email: <b>maureen@uniquehair-studio.com</b>
