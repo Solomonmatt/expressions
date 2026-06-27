@@ -229,8 +229,8 @@ export default function Home() {
               <div className="wrap-slider">
                 <img
                   className="lazyload"
-                  data-src="images/demo/banner1.png"
-                  src="images/demo/banner1.png"
+                  data-src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fHww"
+                  src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFpciUyMHNhbG9ufGVufDB8fDB8fHww"
                   alt="jewerly-slideshow"
                   loading="lazy"
                 />
@@ -985,13 +985,13 @@ export default function Home() {
                               <a href="#" className="product-img ">
                                 <img
                                   className="lazyload img-product"
-                                  data-src="images/products/6a.png"
-                                  src="images/products/6a.png"
+                                  data-src="images/products/new1.png"
+                                  src="images/products/new1.png"
                                   alt="image-product"
                                 />
                                 <img
                                   className="lazyload img-hover"
-                                  data-src="images/products/6a.png"
+                                  data-src="images/products/new1.png"
                                   src="images/products/6a.png"
                                   alt="image-product"
                                 />
