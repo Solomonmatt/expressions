@@ -54,56 +54,43 @@ export default function Home() {
     <>
       <div id="wrapper">
         <div id="wrapper">
-          {/* announcement-bar */}
           <div className="announcement-bar bg_dark">
             <div className="wrap-announcement-bar">
               <div className="box-sw-announcement-bar">
                 <div className="announcement-bar-item">
                   <p>
-                    WELCOME TO UNIQUE EXPRESSIONS STUDIO CAN&apos;T FIND WHAT
-                    YOU NEED? WHATSAPP US: (0) 7490442544
+                    WELCOME TO UNIQUE EXPRESSIONS STUDIO CAN'T FIND WHAT YOU
+                    NEED? WHATSAPP US: (0) 7490442544
                   </p>
                 </div>
                 <div className="announcement-bar-item">
                   <p>FREE SHIPPING AND RETURNS</p>
                 </div>
                 <div className="announcement-bar-item">
-                  <p>LIMITED TIME OFFER: HAIR SALE YOU CAN&apos;T RESIST</p>
+                  <p>LIMITED TIME OFFER: HAIR SALE YOU CAN'T RESIST</p>
                 </div>
                 <div className="announcement-bar-item">
                   <p>FREE SHIPPING AND RETURNS</p>
                 </div>
                 <div className="announcement-bar-item">
-                  <p>
-                    CAN&apos;T FIND WHAT YOU NEED? WHATSAPP US: (0) 7490442544
-                  </p>
+                  <p>CAN'T FIND WHAT YOU NEED? WHATSAPP US: (0) 7490442544</p>
                 </div>
                 <div className="announcement-bar-item">
-                  <p>LIMITED TIME OFFER: HAIR SALE YOU CAN&apos;T RESIST</p>
+                  <p>LIMITED TIME OFFER: HAIR SALE YOU CAN'T RESIST</p>
                 </div>
                 <div className="announcement-bar-item">
                   <p>FREE SHIPPING AND RETURNS</p>
                 </div>
                 <div className="announcement-bar-item">
-                  <p>
-                    CAN&apos;T FIND WHAT YOU NEED? WHATSAPP US: (0) 7490442544
-                  </p>
+                  <p>CAN'T FIND WHAT YOU NEED? WHATSAPP US: (0) 7490442544</p>
                 </div>
               </div>
             </div>
             <span className="icon-close close-announcement-bar" />
           </div>
-          {/* /announcement-bar */}
-          {/* header */}
           <NavBar />
         </div>
       </div>
-      {/* /header */}
-      {/* categories */}
-      <section className="flat-spacing-20">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
               <div className="tf-categories-wrap">
                 <div className="tf-categories-container">
                   <div className="collection-item-circle hover-img">
@@ -1650,6 +1637,14 @@ export default function Home() {
                 </div>
            
          
+                  </>
+                );
+              };
+
+                  </>
+                );
+              };
+
           
           {/* choose us */}
           <section className="flat-spacing-23 bg_brown-4">
@@ -2743,10 +2738,11 @@ export default function Home() {
       </div>
 
 
+    
 
-    </>
-  );
-};
+    
+
+    
 
 
 
@@ -3312,4 +3308,8 @@ export default function Home() {
         </div>
       </div>
    
- 
+    </>
+  );
+};
+
+
