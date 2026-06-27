@@ -836,7 +836,7 @@ export default function Home() {
                 <div className="col-md-6">
                   <div className="box-video-wrap">
                     <video
-                      src="images/slider/downloadd.mp4"
+                      src="images/products/new7.mp4"
                       autoPlay={true}
                       muted={true}
                       playsInline={true}
@@ -844,60 +844,135 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="col-md-6">
-                  <div className="flat-title wow fadeInUp" data-wow-delay="0s">
-                    <p className="sub-title font-poppins fw-7 fs-14" />
-                    <span className="title fw-8 font-poppins">OUR GALLERY</span>
-                  </div>
-                  <div className="position-relative wrap-carousel style-2">
-                    <div className="nav-sw nav-next-slider nav-next-sell-1">
-                      <span className="icon icon-arrow-left" />
-                    </div>
-                    <div
-                      dir="ltr"
-                      className="swiper tf-sw-product-sell-1 wrap-sw-over"
-                    >
-                      <div className="flex flex-row wrap gap-3 overflow-x-auto">
-                        <div className="swiper-slide ">
-                          <div className="card-product">
-                            <div className="card-product-wrapper rounded-0">
-                              <a href="#" className="product-img ">
-                                <img
-                                  className="lazyload img-product"
-                                  data-src="images/products/00.png"
-                                  src="images/products/00.png"
-                                  alt="image-product"
-                                />
-                                <img
-                                  className="lazyload img-hover"
-                                  data-src="images/products/00.png"
-                                  src="images/products/00.png"
-                                  alt="image-product"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="swiper-slide ">
-                          <div className="card-product">
-                            <div className="card-product-wrapper rounded-0">
-                              <a href="#" className="product-img ">
-                                <img
-                                  className="lazyload img-product"
-                                  data-src="images/products/5a.png"
-                                  src="images/products/5a.png"
-                                  alt="image-product"
-                                />
-                                <img
-                                  className="lazyload img-hover"
-                                  data-src="images/products/5a.png"
-                                  src="images/products/5a.png"
-                                  alt="image-product"
-                                />
-                              </a>
-                            </div>
-                          </div>
-                        </div>
+
+                <div dir="ltr" className="swiper tf-sw-product-sell-1 wrap-sw-over">
+  <div className="swiper-wrapper">
+    <div className="swiper-slide">
+      <div className="card-product">
+        <div className="card-product-wrapper rounded-0">
+          <a href="#" className="product-img">
+            <img
+              src="/images/products/new1.png"
+              alt="image-product"
+              className="img-product"
+              loading="lazy"
+            />
+            <img
+              src="/images/products/new1.png"
+              alt="image-product"
+              className="img-hover"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div className="swiper-slide">
+      <div className="card-product">
+        <div className="card-product-wrapper rounded-0">
+          <a href="#" className="product-img">
+            <img
+              src="/images/products/new2..png"
+              alt="image-product"
+              className="img-product"
+              loading="lazy"
+            />
+            <img
+              src="/images/products/new2..png"
+              alt="image-product"
+              className="img-hover"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        </div>
+        </div>
+
+        <div className="swiper-slide">
+      <div className="card-product">
+        <div className="card-product-wrapper rounded-0">
+          <a href="#" className="product-img">
+            <img
+              src="/images/products/new3..png"
+              alt="image-product"
+              className="img-product"
+              loading="lazy"
+            />
+            <img
+              src="/images/products/new3..png"
+              alt="image-product"
+              className="img-hover"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        </div>
+        </div>
+
+        <div className="swiper-slide">
+      <div className="card-product">
+        <div className="card-product-wrapper rounded-0">
+          <a href="#" className="product-img">
+            <img
+              src="/images/products/new4..png"
+              alt="image-product"
+              className="img-product"
+              loading="lazy"
+            />
+            <img
+              src="/images/products/new4..png"
+              alt="image-product"
+              className="img-hover"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        </div>
+        </div>
+
+        <div className="swiper-slide">
+      <div className="card-product">
+        <div className="card-product-wrapper rounded-0">
+          <a href="#" className="product-img">
+            <img
+              src="/images/products/new5..png"
+              alt="image-product"
+              className="img-product"
+              loading="lazy"
+            />
+            <img
+              src="/images/products/new5..png"
+              alt="image-product"
+              className="img-hover"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        </div>
+        </div>
+
+        <div className="swiper-slide">
+      <div className="card-product">
+        <div className="card-product-wrapper rounded-0">
+          <a href="#" className="product-img">
+            <img
+              src="/images/products/new6..png"
+              alt="image-product"
+              className="img-product"
+              loading="lazy"
+            />
+            <img
+              src="/images/products/new6..png"
+              alt="image-product"
+              className="img-hover"
+              loading="lazy"
+            />
+          </a>
+        </div>
+        </div>
+        </div>
+
                         <div className="swiper-slide ">
                           <div className="card-product">
                             <div className="card-product-wrapper rounded-0">
