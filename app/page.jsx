@@ -829,21 +829,27 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* /Banner men collection */}
+
           <section className="flat-spacing-12">
-            <div className="container">
-              <div className="row align-items-center flex-md-row-reverse">
-                <div className="col-md-6">
-                  <div className="box-video-wrap">
-                    <video
-                      src="images/products/new7.mp4"
-                      autoPlay={true}
-                      muted={true}
-                      playsInline={true}
-                      loop={true}
-                    />
-                  </div>
-                </div>
+  <div className="container">
+    <div className="row align-items-center flex-md-row-reverse">
+      <div className="col-md-6">
+        <div className="box-video-wrap">
+          <video
+            src="/images/products/new7.mp4"
+            autoPlay
+            muted
+            playsInline
+            loop
+          />
+        </div>
+      </div>
+      {/* Add another column here if needed */}
+    </div>
+  </div>
+</section>
+
+              
 
                 <div dir="ltr" className="swiper tf-sw-product-sell-1 wrap-sw-over">
   <div className="swiper-wrapper">
@@ -1642,9 +1648,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </section>
+           
+         
           
           {/* choose us */}
           <section className="flat-spacing-23 bg_brown-4">
@@ -1788,8 +1793,7 @@ export default function Home() {
               <div className="sw-dots medium  d-flex style-2 sw-pagination-testimonial justify-content-center" />
             </div>
           </section>
-        </div>
-      </div>
+       
       {/* /choose us */}
 
 
@@ -2508,6 +2512,13 @@ export default function Home() {
       </div>
       {/* /toolbarShopmb */}
       {/* modal login */}
+
+     "use client";
+
+import React from "react";
+
+
+      {/* Login Modal */}
       <div
         className="modal modalCentered fade form-sign-in modal-part-content"
         id="login"
@@ -2522,26 +2533,28 @@ export default function Home() {
               />
             </div>
             <div className="tf-login-form">
-              <form className="" action="#" acceptCharset="utf-8">
+              <form action="#" acceptCharset="utf-8">
                 <div className="tf-field style-1">
                   <input
+                    id="login-email"
                     className="tf-field-input tf-input"
                     placeholder=" "
                     type="email"
-                    name=""
+                    name="email"
                   />
-                  <label className="tf-field-label" htmlFor="">
+                  <label className="tf-field-label" htmlFor="login-email">
                     Email *
                   </label>
                 </div>
                 <div className="tf-field style-1">
                   <input
+                    id="login-password"
                     className="tf-field-input tf-input"
                     placeholder=" "
                     type="password"
-                    name=""
+                    name="password"
                   />
-                  <label className="tf-field-label" htmlFor="">
+                  <label className="tf-field-label" htmlFor="login-password">
                     Password *
                   </label>
                 </div>
@@ -2579,6 +2592,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Forgot Password Modal */}
       <div
         className="modal modalCentered fade form-sign-in modal-part-content"
         id="forgotPassword"
@@ -2593,22 +2608,21 @@ export default function Home() {
               />
             </div>
             <div className="tf-login-form">
-              <form className="">
-                <div>
-                  <p>
-                    Sign up for early Sale access plus tailored new arrivals,
-                    trends and promotions. To opt out, click unsubscribe in our
-                    emails
-                  </p>
-                </div>
+              <form>
+                <p>
+                  Sign up for early Sale access plus tailored new arrivals,
+                  trends and promotions. To opt out, click unsubscribe in our
+                  emails.
+                </p>
                 <div className="tf-field style-1">
                   <input
+                    id="forgot-email"
                     className="tf-field-input tf-input"
                     placeholder=" "
                     type="email"
-                    name=""
+                    name="email"
                   />
-                  <label className="tf-field-label" htmlFor="">
+                  <label className="tf-field-label" htmlFor="forgot-email">
                     Email *
                   </label>
                 </div>
@@ -2636,6 +2650,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Register Modal */}
       <div
         className="modal modalCentered fade form-sign-in modal-part-content"
         id="register"
@@ -2650,59 +2666,69 @@ export default function Home() {
               />
             </div>
             <div className="tf-login-form">
-              <form className="">
+              <form>
                 <div className="tf-field style-1">
                   <input
+                    id="register-firstname"
                     className="tf-field-input tf-input"
                     placeholder=" "
                     type="text"
-                    name=""
+                    name="firstName"
                   />
-                  <label className="tf-field-label" htmlFor="">
+                  <label
+                    className="tf-field-label"
+                    htmlFor="register-firstname"
+                  >
                     First name
                   </label>
                 </div>
                 <div className="tf-field style-1">
                   <input
+                    id="register-lastname"
                     className="tf-field-input tf-input"
                     placeholder=" "
                     type="text"
-                    name=""
+                    name="lastName"
                   />
-                  <label className="tf-field-label" htmlFor="">
+                  <label className="tf-field-label" htmlFor="register-lastname">
                     Last name
                   </label>
                 </div>
                 <div className="tf-field style-1">
                   <input
+                    id="register-email"
                     className="tf-field-input tf-input"
                     placeholder=" "
                     type="email"
-                    name=""
+                    name="email"
                   />
-                  <label className="tf-field-label" htmlFor="">
+                  <label className="tf-field-label" htmlFor="register-email">
                     Email *
                   </label>
                 </div>
                 <div className="tf-field style-1">
                   <input
+                    id="register-password"
                     className="tf-field-input tf-input"
                     placeholder=" "
                     type="password"
-                    name=""
+                    name="password"
                   />
-                  <label className="tf-field-label" htmlFor="">
+                  <label
+                    className="tf-field-label"
+                    htmlFor="register-password"
+                  >
                     Password *
                   </label>
                 </div>
                 <div className="bottom">
                   <div className="w-100">
-                    <a
-                      href="#"
+                    <button
+                      type="submit"
                       className="tf-btn btn-fill animate-hover-btn radius-3 w-100 justify-content-center"
                     >
                       <span>Register</span>
-                    </a>
+                    </button>
                   </div>
                   <div className="w-100">
                     <a
@@ -2720,7 +2746,11 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* /modal login */}
+    </>
+  );
+};
+
+
 
 
       {/* shoppingCart */}
@@ -3284,6 +3314,5 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
-  );
-}
+   
+ 
