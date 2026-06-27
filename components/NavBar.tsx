@@ -1,12 +1,29 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { SignInButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { getTotalQuantity } from "@/utils/cart";
 
 const NavBar = () => {
+  const [totalQuantity, setTotalQuantity] = useState(0);
+
+  useEffect(() => {
+    // Initialize quantity from localStorage via util
+    setTotalQuantity(getTotalQuantity() || 0);
+
+    // Update when other tabs/windows modify the cart
+    const onStorage = (e: StorageEvent) => {
+      if (!e.key || e.key === "cart") {
+        setTotalQuantity(getTotalQuantity() || 0);
+      }
+    };
+
+    window.addEventListener("storage", onStorage);
+    return () => window.removeEventListener("storage", onStorage);
+  }, []);
+
   return (
     <header id="header" className="header-default header-style-2">
       <div className="main-header line">
@@ -100,7 +117,7 @@ const NavBar = () => {
                     className="nav-icon-item"
                   >
                     <i className="icon icon-bag" />
-                    <span className="count-box">{getTotalQuantity() || 0}</span>
+                    <span className="count-box">{totalQuantity}</span>
                   </a>
                 </li>
                 <li className="nav-account">
