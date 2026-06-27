@@ -1,16 +1,14 @@
 "use client";
 
-import React from 'react'
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 import {
   SignInButton,
   SignedIn,
   SignedOut,
-  UserButton,
 } from "@clerk/nextjs";
-import {
-  getTotalQuantity,
-} from "@/utils/cart";
-import Link from 'next/link';
+import { getTotalQuantity } from "@/utils/cart";
 
 const NavBar = () => {
   return (
@@ -18,6 +16,7 @@ const NavBar = () => {
       <div className="main-header line">
         <div className="container-full px_15 lg-px_40">
           <div className="row wrapper-header align-items-center">
+            {/* Left navigation */}
             <div className="col-xl-5 tf-md-hidden">
               <ul className="header-list-categories">
                 <li className="categories-item active">
@@ -26,7 +25,7 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li className="categories-item">
-                  <Link href="#" className="text-uppercase">
+                  <Link href="/treatment" className="text-uppercase">
                     HAIR TREATMENT
                   </Link>
                 </li>
@@ -36,12 +35,19 @@ const NavBar = () => {
                   </Link>
                 </li>
                 <li className="categories-item">
-                  <Link href="https://maps.app.goo.gl/qqg9HWr3jSppScEG6" className="text-uppercase">
+                  <a
+                    href="https://maps.app.goo.gl/qqg9HWr3jSppScEG6"
+                    className="text-uppercase"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     Find a Store
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
+
+            {/* Mobile menu toggle */}
             <div className="col-md-4 col-3 tf-lg-hidden">
               <a
                 href="#mobileMenu"
@@ -62,15 +68,22 @@ const NavBar = () => {
                 </svg>
               </a>
             </div>
+
+            {/* Logo */}
             <div className="col-xl-2 col-md-4 col-6 text-center">
               <Link href="/" className="logo-header">
-                <img
-                  src="images/demo/NEW LOGO WHITE.png"
+                <Image
+                  src="/images/demo/NEW LOGO WHITE.png"
                   alt="logo"
+                  width={120}
+                  height={40}
                   className="logo"
+                  priority
                 />
               </Link>
             </div>
+
+            {/* Right icons */}
             <div className="col-xl-5 col-md-4 col-3">
               <ul className="nav-icon d-flex justify-content-end align-items-center gap-20">
                 <li className="nav-search">
@@ -90,13 +103,15 @@ const NavBar = () => {
                     className="nav-icon-item"
                   >
                     <i className="icon icon-bag" />
-                    <span className="count-box">{getTotalQuantity()}</span>
+                    <span className="count-box">{getTotalQuantity() || 0}</span>
                   </a>
                 </li>
                 <li className="nav-account">
                   <SignedOut>
                     <SignInButton>
-                      <span className='bg-black text-white p-2 px-4 rounded-md cursor-pointer'>Login</span>
+                      <span className="bg-black text-white p-2 px-4 rounded-md cursor-pointer">
+                        Login
+                      </span>
                     </SignInButton>
                   </SignedOut>
                   <SignedIn>
@@ -110,14 +125,16 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+
+      {/* Bottom nav for mobile */}
       <ul className="header-list-categories tf-lg-hidden">
         <li className="categories-item active">
-          <a href="/shop" className="text-uppercase">
+          <Link href="/shop" className="text-uppercase">
             QUALITY HAIR
-          </a>
+          </Link>
         </li>
         <li className="categories-item">
-          <Link href="#" className="text-uppercase">
+          <Link href="/treatment" className="text-uppercase">
             HAIR TREATMENT
           </Link>
         </li>
@@ -127,13 +144,16 @@ const NavBar = () => {
           </Link>
         </li>
         <li className="categories-item">
-          <Link href="https://maps.app.goo.gl/qqg9HWr3jSppScEG6" className="text-uppercase">
+          <a href="https://maps.app.goo.gl/qqg9HWr3jSppScEG6"
+            className="text-uppercase"
+            target="_blank"
+            rel="noopener noreferrer">
             Find a Store
-          </Link>
+          </a>
         </li>
       </ul>
     </header>
   );
-}
+};
 
-export default NavBar
+export default NavBar;
