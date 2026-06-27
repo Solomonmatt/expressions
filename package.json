@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:vercel": "next build && echo \"Custom Vercel build complete\"",
     "start": "next start",
     "lint": "next lint"
   },
@@ -43,3 +44,4 @@
     "node": ">=18"
   }
 }
+
