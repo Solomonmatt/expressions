@@ -2513,11 +2513,6 @@ export default function Home() {
       {/* /toolbarShopmb */}
       {/* modal login */}
 
-     "use client";
-
-import React from "react";
-
-
       {/* Login Modal */}
       <div
         className="modal modalCentered fade form-sign-in modal-part-content"
@@ -2746,10 +2741,12 @@ import React from "react";
           </div>
         </div>
       </div>
+
+
+
     </>
   );
 };
-
 
 
 
