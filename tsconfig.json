@@ -18,21 +18,14 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     }
+    ,
+    "baseUrl": "."
+    ,
+    "ignoreDeprecations": "6.0"
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "**/*.js",
-    "**/*.jsx",
-    ".next/types/**/*.ts",
-    "app/page.jsx",
-    "app/api/checkout_sessions/route.ts",
-    "next.config.js"
-  ],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/page.jsx", "app/api/checkout_sessions/route.ts", "next.config.js"],
   "exclude": ["node_modules"]
 }
