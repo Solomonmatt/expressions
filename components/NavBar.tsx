@@ -3,11 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import {
-  SignInButton,
-  SignedIn,
-  SignedOut,
-} from "@clerk/nextjs";
+import { SignInButton, SignedIn, SignedOut } from "@clerk/nextjs";
 import { getTotalQuantity } from "@/utils/cart";
 
 const NavBar = () => {
@@ -34,6 +30,7 @@ const NavBar = () => {
                     ABOUT US
                   </Link>
                 </li>
+                
                 <li className="categories-item">
                   <a
                     href="https://maps.app.goo.gl/9MKemVSYtqSQM5DL8"
@@ -54,7 +51,6 @@ const NavBar = () => {
                 data-bs-toggle="offcanvas"
                 aria-controls="offcanvasLeft"
               >
-                {/* Hamburger icon */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={24}
@@ -66,7 +62,6 @@ const NavBar = () => {
                     d="M2 2.28571H16.8577C17.1608 2.28571 17.4515 2.16531 17.6658 1.95098C17.8802 1.73665 18.0006 1.44596 18.0006 1.14286C18.0006 0.839753 17.8802 0.549063 17.6658 0.334735C17.4515 0.120408 17.1608 0 16.8577 0H2C1.69745 0 1.40676 0.120408 1.19244 0.334735C0.978109 0.549063 0.857702 0.839753 0.857702 1.14286C0.857702 1.44596 0.978109 1.73665 1.19244 1.95098C1.40676 2.16531 1.69745 2.28571 2 2.28571Z"
                     fill="currentColor"
                   />
-                  {/* other paths omitted for brevity */}
                 </svg>
               </a>
             </div>
